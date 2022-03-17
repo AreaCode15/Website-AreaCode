@@ -98,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, .2);
     color: #ffffff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 35px 68px 0 rgba(170,63,254,0.42), inset 0 -8px 16px 0 #923993;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -109,6 +110,8 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, .6);
   color: #0077b5;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 35px 68px 0 rgba(170,63,254,0.42), inset 0 -8px 16px 0 #50d8d7;
+  
 }
 
 #header .social-links .github:hover {
@@ -116,9 +119,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .6);
     color: #000000;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 35px 68px 0 rgba(170,63,254,0.42), inset 0 -8px 16px 0 #50d8d7;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -131,9 +135,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .6);
     color: #3b5998;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 35px 68px 0 rgba(170,63,254,0.42), inset 0 -8px 16px 0 #50d8d7;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -168,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   background: rgba(255, 255, 255, .2);
     color: #ffffff;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .2);
     border-radius: 0.4rem;
 }
 
@@ -353,7 +358,7 @@ section.section-show {
 section .container {
   background: rgba(255, 255, 255, .2);
     color: #ffffff;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
   padding: 30px;
   border-radius: 0.5rem;
 }
@@ -470,7 +475,7 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
   border-radius: 0.4rem;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -525,8 +530,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: rgba(255, 255, 255, .6);
-  border-color: rgba(255, 255, 255, .6);
+  background: rgba(255, 255, 255, .6), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
+  border-color: rgba(255, 255, 255, .6), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
 }
 
 .services .icon-box:hover .icon {
@@ -569,6 +574,7 @@ section .container {
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
@@ -577,6 +583,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   background: #50d8d7;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -778,7 +785,7 @@ section .container {
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 0.4rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
 }
 
 .contact .info-box i.bx {
@@ -862,7 +869,7 @@ section .container {
 .contact .php-email-form {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
   border-radius: 0.4rem;
 }
 
@@ -917,7 +924,7 @@ section .container {
   transition: 0.3s;
   color: #ffffff;
   border-radius: 0.4rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
@@ -960,13 +967,13 @@ section .container {
   border-radius: 4px;
   background: rgba(255, 255, 255, .2);
   color: #ffffff;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
 }
 
 .contact .php-email-form button[type="submit"]:hover {
   background: rgba(255, 255, 255, .6);
   color: #923993;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .2);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1006,7 +1013,7 @@ section .container {
     padding: 10px;
     background: rgba(255, 255, 255, .1);
     color: #ffffff;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
     border-radius: 0.2rem;
   }
 }
@@ -1038,7 +1045,7 @@ section .container {
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2), inset 0 -8px 16px 0 rgba(0, 0, 0, .1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 80px;
