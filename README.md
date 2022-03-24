@@ -1,9 +1,9 @@
 # Website-AreaCode
 
 Site Web Area Code
-Version 2.0
+Version 3.0
 Product By Area-Code
-Copyright 2021 Licences Apache-2.0
+Copyright 2022 Licences Apache-2.0
 (for more information, read License)
 
 # Used tools
