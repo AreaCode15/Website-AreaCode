@@ -16,16 +16,16 @@
 				'Messages' => [
 				  [
 					'From' => [
-					  'Email' => "area.code.eu@gmail.com",
+					  'Email' => "contact.dev2web@gmail.com",
 					  'Name' => "Rémi"
 					],
 					'To' => [
 					  [
-						'Email' => "area.code.eu@gmail.com",
+						'Email' => "contact.dev2web@gmail.com",
 						'Name' => "Rémi"
 					  ]
 					],
-					'Subject' => "Mail provenant du Site Area Code",
+					'Subject' => "Mail provenant du Site Dev2Web",
 					'TextPart' => "$email, $message",
 				  ]
 				]

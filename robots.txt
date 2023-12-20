@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://area-code.eu
+Sitemap: https://www.dev2web.fr
